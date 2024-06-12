@@ -1,6 +1,7 @@
 * {
   background-color: black;
   color: white;
+  box-sizing: content-box;
 }
 
 #title-and-image {
@@ -18,8 +19,13 @@
   text-align: center;
 }
 
-
 .full-article {
   font-family: "Arial", "Helvetica", sans-serif;
   font-size: 18px;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
 }
